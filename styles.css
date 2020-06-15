@@ -1,0 +1,126 @@
+body {
+  font-size: 18px;
+  font-family: "sans-serif";
+  line-height: 1.42857143;
+  font-weight: bold;
+}
+div{
+  display: block;
+}
+#TOP {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+.navbar h1 { 
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2.3em;
+  font-weight: bold;
+  display:inline ;
+  color:black;
+}
+
+h1{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  color: inherit;
+}
+h2{
+  font-weight: bold;
+  color:black;
+}
+h3{
+  font-weight: bold;
+  color:black;
+}
+.navbar-toggle{
+	margin-top: 35px;
+}
+
+#MENU{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 35px;
+	padding : 5px;
+	color: #000;
+	font-weight: bold;
+}
+  *{
+    box-sizing: border-box;
+  }
+.row{
+	margin: 30px;
+}
+#Chicken{
+	text-align: center;
+}
+#Beef{
+  text-align: center;
+}
+#Sushi{
+  text-align: center;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+  
+  @media (max-width:768px){
+    .col-sm-6{
+      width: 50%;
+      float: left;
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+     .navbar-nav>li>a{
+      padding-top: 15px;
+      padding-bottom: 15px;
+     }
+  }
+  .navbar-nav>li>a{
+    line-height: 20px;
+  }
+  .nav>li>a{
+    position: relative;
+    display: block;
+    padding : 10px 15px; 
+  }
+  .nav{
+    list-style: none;
+  }
+  .row{
+    margin:30px;
+  }
+  .container #content {
+    width: 100%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: grey;
+    color:black;
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+  }
+  #link-top {
+    color: blue;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  a{
+    font-size: 18px;
+  }
